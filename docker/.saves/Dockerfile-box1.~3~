@@ -1,2 +1,0 @@
-FROM busybox:latest
-ENTRYPOINT ["while true; do sleep 1; done"]
