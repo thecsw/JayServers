@@ -4,17 +4,14 @@ FROM ubuntu:latest
 RUN echo JayServer1 > /etc/hostname
 
 # Setup the SSH
-COPY ./jayhacker1.pass /root/jayhacker1.pass
 RUN apt-get update && apt-get install -y openssh-server
 RUN mkdir /var/run/sshd && chmod 0755 /var/run/sshd && /usr/sbin/sshd
 
-# Add users
-RUN useradd --create-home --shell /bin/bash jayhacker1
-RUN passwd jayhacker1 < /root/jayhacker1.pass
-
-COPY ./box1.sh /root/box1.sh
-RUN /root/box1.sh
+# Copy passwords
+COPY ./servers/server1/passwords /root/passwords
+COPY ./servers/server1/JayServer1.sh /root/JayServer1.sh
+RUN /root/JayServer1.sh
 
 # Start the zombie mode, so it's accessible and doesn't return
-COPY ./dummy.sh /root/dummy.sh
-CMD ["/root/dummy.sh"]
+COPY ./starter.sh /root/starter.sh
+CMD ["/root/starter.sh"]

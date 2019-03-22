@@ -4,6 +4,6 @@ services:
     box1:
         build:
           context: .
-          dockerfile: docker/Dockerfile-box1
+          dockerfile: docker/Dockerfile-server1
         ports:
           - "2020:22"
