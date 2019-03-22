@@ -1,0 +1,5 @@
+version: '3'
+
+services:
+    box1:
+      build: ./docker/Dockerfile-box1

@@ -1,0 +1,3 @@
+FROM ubuntu:latest
+COPY ./dummy.sh /dummy.sh
+CMD ["/dummy.sh"]

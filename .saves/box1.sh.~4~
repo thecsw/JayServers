@@ -1,0 +1,12 @@
+#!/bin/sh
+
+apt-get update && apt-get install -y openssh-server
+
+mkdir /var/run/sshd
+chmod 0755 /var/run/sshd
+/usr/sbin/sshd
+
+useradd --create-home --shell /bin/bash --groups box1user1
+passwd username < /root/box1user1.pass
+
+ifconfig | awk '/inet addr/{print substr($2,6)}'
