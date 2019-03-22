@@ -4,8 +4,12 @@ FROM ubuntu:latest
 RUN echo JayServer1 > /etc/hostname
 
 # Setup the SSH
-RUN apt-get update && apt-get install -y openssh-server
+RUN apt-get update && apt-get install -y openssh-server lolcat cowsay
 RUN mkdir /var/run/sshd && chmod 0755 /var/run/sshd && /usr/sbin/sshd
+RUN sed 's/#PrintLastLog yes/PrintLastLog no/g' -i /etc/ssh/sshd_config
+RUN echo 'Banner /etc/banner' >> /etc/ssh/sshd_config
+RUN echo "'With Great Power Comes Great Responsibility' - Uncle Ben" > /etc/banner
+RUN echo '\033[1;32mWelcome to my cozy server...\033[0m' > /etc/motd
 
 # Copy passwords
 COPY ./servers/server1/passwords /root/passwords
