@@ -1,0 +1,6 @@
+jayhackers.org {
+        cors
+	root /static
+	log / stdout
+	errors stdout
+}
