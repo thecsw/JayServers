@@ -31,3 +31,18 @@ paginate = 10
     name = "HOME"
     url = "/"
     weight = 1
+
+[[menu.nav]]
+    name = "LESSONS"
+    url = "/lessons"
+    weight = 2
+
+[[menu.nav]]
+    name = "LABS"
+    url = "/labs"
+    weight = 3
+
+[[menu.nav]]
+    name = "ABOUT"
+    url = "/about"
+    weight = 4
