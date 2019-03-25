@@ -1,11 +1,11 @@
-baseURL = ""
+baseURL = "https://jayhackers.org/"
 languageCode = "en-us"
 title = "Jayhackers website"
 theme = "hugo-theme-yuki"
 author = "Sandy"
 
 # Copyright notice. This will display on the footer.
-copyright = ""
+copyright = "oof"
 paginate = 10
 
 # Theme config
@@ -15,10 +15,10 @@ paginate = 10
   # The information will display on the post pages.
   author = "Sandy"
   description = "KU Information Security Club"
-  authorwebsite = "https://jayhackers.org/"
+  # authorwebsite = "https://jayhackers.org/"
   # The path to your images
-  favicon = "images/kuisc_logo.png"
-  logo = "images/kuisc_logo.png"
+  favicon = "./images/kuisc_logo.png"
+  logo = "./images/kuisc_logo.png"
   avatar = ""
   displayImg = "images/lawrence.jpg"
   # This will display on the index page
