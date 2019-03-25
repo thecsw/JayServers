@@ -1,6 +1,4 @@
 ---
 title: "Lab3"
 date: 2019-03-25T17:20:46-05:00
-draft: true
 ---
-
