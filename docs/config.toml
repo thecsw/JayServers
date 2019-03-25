@@ -1,4 +1,4 @@
-baseURL = "https://jayhackers.org/"
+baseURL = ""
 languageCode = "en-us"
 title = "Jayhackers website"
 theme = "hugo-theme-yuki"
@@ -25,3 +25,9 @@ paginate = 10
   #esnsTitle = "Social"
   # Google Analytics API key.
   #ga_api_key = "Your Google Analytics tracking id"
+
+# Navbar config
+[[menu.nav]]
+    name = "HOME"
+    url = "/"
+    weight = 1
