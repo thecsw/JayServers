@@ -7,54 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>oof</copyright>
-    <lastBuildDate>Mon, 25 Mar 2019 17:20:58 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 28 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jayhackers.org/labs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Lab4</title>
-      <link>https://jayhackers.org/labs/lab4/</link>
-      <pubDate>Mon, 25 Mar 2019 17:20:58 -0500</pubDate>
+      <title>Lab 1 Challenges</title>
+      <link>https://jayhackers.org/labs/labs/</link>
+      <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jayhackers.org/labs/lab4/</guid>
-      <description></description>
+      <guid>https://jayhackers.org/labs/labs/</guid>
+      <description>Password to the next user stored in flag.txt
+Useful commands: cat, less, more
+ Password to the next user is the home directory of the user
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored in the file “flag.txt” located in the directory that linux systems store log files (look it up!)
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored within the hidden directory in the users home directory</description>
     </item>
     
     <item>
-      <title>Lab3</title>
-      <link>https://jayhackers.org/labs/lab3/</link>
-      <pubDate>Mon, 25 Mar 2019 17:20:46 -0500</pubDate>
-      
-      <guid>https://jayhackers.org/labs/lab3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lab2</title>
-      <link>https://jayhackers.org/labs/lab2/</link>
-      <pubDate>Mon, 25 Mar 2019 17:20:44 -0500</pubDate>
-      
-      <guid>https://jayhackers.org/labs/lab2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lab1</title>
+      <title></title>
       <link>https://jayhackers.org/labs/lab1/</link>
-      <pubDate>Mon, 25 Mar 2019 17:20:43 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jayhackers.org/labs/lab1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lab0</title>
-      <link>https://jayhackers.org/labs/lab0/</link>
-      <pubDate>Mon, 25 Mar 2019 17:20:41 -0500</pubDate>
-      
-      <guid>https://jayhackers.org/labs/lab0/</guid>
-      <description></description>
+      <description>+++ date = “2019-03-28” title = “Lab 1 Challenges” author = “Ellis and Sandy” +++
+Password to the next user stored in flag.txt
+Useful commands: cat, less, more
+ Password to the next user is the home directory of the user
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored in the file “flag.txt” located in the directory that linux systems store log files (look it up!</description>
     </item>
     
   </channel>

@@ -10,11 +10,7 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile-caddy
-    restart_policy:
-      condition: unless-stopped
-      delay: 5s
-      max_attempts: 2
-      window: 7200s
+    restart: "no"
     ports:
       - 2015:2015
       - 80:80
