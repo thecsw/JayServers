@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jayhackers website</title>
-    <link>https://jayhackers.org/</link>
-    <description>Recent content on Jayhackers website</description>
+    <title>Posts on Jayhackers website</title>
+    <link>https://jayhackers.org/post/</link>
+    <description>Recent content in Posts on Jayhackers website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>KU Information Security Club. Copyright 2019</copyright>
     <lastBuildDate>Thu, 28 Mar 2019 19:30:00 -0500</lastBuildDate>
     
-	<atom:link href="https://jayhackers.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jayhackers.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -36,15 +36,6 @@ Useful commands: pwd, cat, less, more, cd
       <description>Welcome to the first JayHackers *NIX system competition labs! This is our first Linux Beginners Lab! In this lab, we will teach you the basic Linux commands, philosophy, and ways to familiarize yourself with the environment. We will provide a brief lecture and tutorial on the commands and then you can start solving the challenges!
 Lecture Some good stuff here
 There is a link at the bottom. Click to open the challenges</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://jayhackers.org/about/</link>
-      <pubDate>Mon, 25 Mar 2019 17:18:28 -0500</pubDate>
-      
-      <guid>https://jayhackers.org/about/</guid>
-      <description>Our Purpose  Train students in the ability to properly secure and defend home and enterprise systems. Compete in Cyber Defense Competitions each semester. Provide students with access to a network of professionals in the cyber security fields. Present speakers, with a connection to cyber security, to the students of the University of Kansas. Host Cyber Defense Competitions at least once per school year.  How to get Involved  We host bi-weekly meetings in EATON 1005C from 7pm-8pm on Thursdays.</description>
     </item>
     
   </channel>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Challenges on Jayhackers website</title>
+    <link>https://jayhackers.org/tags/challenges/</link>
+    <description>Recent content in Challenges on Jayhackers website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>KU Information Security Club. Copyright 2019</copyright>
+    <lastBuildDate>Thu, 28 Mar 2019 19:30:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://jayhackers.org/tags/challenges/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux Beginners Lab Challenges</title>
+      <link>https://jayhackers.org/post/lab1-challenges/</link>
+      <pubDate>Thu, 28 Mar 2019 19:30:00 -0500</pubDate>
+      
+      <guid>https://jayhackers.org/post/lab1-challenges/</guid>
+      <description>Password to the next user stored in flag.txt
+Useful commands: cat, less, more
+ Password to the next user is the home directory of the user
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored in the file “flag.txt” located in the directory that linux systems store log files (look it up!)
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored within the hidden directory in the users home directory</description>
+    </item>
+    
+  </channel>
+</rss>

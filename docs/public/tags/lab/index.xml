@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab on Jayhackers website</title>
+    <link>https://jayhackers.org/tags/lab/</link>
+    <description>Recent content in Lab on Jayhackers website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>KU Information Security Club. Copyright 2019</copyright>
+    <lastBuildDate>Thu, 28 Mar 2019 19:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://jayhackers.org/tags/lab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux Beginners Lab</title>
+      <link>https://jayhackers.org/post/lab1/</link>
+      <pubDate>Thu, 28 Mar 2019 19:00:00 -0500</pubDate>
+      
+      <guid>https://jayhackers.org/post/lab1/</guid>
+      <description>Welcome to the first JayHackers *NIX system competition labs! This is our first Linux Beginners Lab! In this lab, we will teach you the basic Linux commands, philosophy, and ways to familiarize yourself with the environment. We will provide a brief lecture and tutorial on the commands and then you can start solving the challenges!
+Lecture Some good stuff here
+There is a link at the bottom. Click to open the challenges</description>
+    </item>
+    
+  </channel>
+</rss>
