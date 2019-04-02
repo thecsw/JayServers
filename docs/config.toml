@@ -1,0 +1,38 @@
+baseURL = "https://jayhackers.org/"
+languageCode = "en-us"
+title = "Jayhackers website"
+theme = "hugo-theme-yuki"
+author = "Sandy"
+
+# Copyright notice. This will display on the footer.
+copyright = "oof"
+paginate = 10
+
+# Theme config
+[params]
+  # The content you want to be listed on list pages.
+  mainSections = ["post"]
+  # The information will display on the post pages.
+  author = "Sandy"
+  description = "KU Information Security Club"
+  # authorwebsite = "https://jayhackers.org/"
+  # The path to your images
+  favicon = "./images/kuisc_logo.png"
+  logo = "./images/kuisc_logo.png"
+  avatar = ""
+  displayImg = "images/lawrence.jpg"
+  # This will display on the index page
+  #esnsTitle = "Social"
+  # Google Analytics API key.
+  #ga_api_key = "Your Google Analytics tracking id"
+
+# Navbar config
+[[menu.nav]]
+    name = "HOME"
+    url = "/"
+    weight = 1
+
+[[menu.nav]]
+    name = "LABS"
+    url = "/about/"
+    weight = 2

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jayhackers website</title>
+    <link>https://jayhackers.org/</link>
+    <description>Recent content on Jayhackers website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>oof</copyright>
+    <lastBuildDate>Thu, 28 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jayhackers.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lab 1 Challenges</title>
+      <link>https://jayhackers.org/labs/labs/</link>
+      <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jayhackers.org/labs/labs/</guid>
+      <description>Password to the next user stored in flag.txt
+Useful commands: cat, less, more
+ Password to the next user is the home directory of the user
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored in the file “flag.txt” located in the directory that linux systems store log files (look it up!)
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored within the hidden directory in the users home directory</description>
+    </item>
+    
+    <item>
+      <title>Lab 1 Challenges</title>
+      <link>https://jayhackers.org/about/</link>
+      <pubDate>Mon, 25 Mar 2019 17:18:28 -0500</pubDate>
+      
+      <guid>https://jayhackers.org/about/</guid>
+      <description>Welcome to the first JayHackers *NIX system competition labs!  Password to the next user stored in flag.txt
+Useful commands: cat, less, more
+ Password to the next user is the home directory of the user
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored in the file “flag.txt” located in the directory that linux systems store log files (look it up!)
+Useful commands: pwd, cat, less, more, cd</description>
+    </item>
+    
+    <item>
+      <title>Labs</title>
+      <link>https://jayhackers.org/labs/</link>
+      <pubDate>Mon, 25 Mar 2019 17:18:28 -0500</pubDate>
+      
+      <guid>https://jayhackers.org/labs/</guid>
+      <description>Password to the next user stored in flag.txt
+Useful commands: cat, less, more
+ Password to the next user is the home directory of the user
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored in the file “flag.txt” located in the directory that linux systems store log files (look it up!)
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored within the hidden directory in the users home directory</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jayhackers.org/labs/lab1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jayhackers.org/labs/lab1/</guid>
+      <description>+++ date = “2019-03-28” title = “Lab 1 Challenges” author = “Ellis and Sandy” +++
+Password to the next user stored in flag.txt
+Useful commands: cat, less, more
+ Password to the next user is the home directory of the user
+Useful commands: pwd, cat, less, more, cd
+ Password to the next user is stored in the file “flag.txt” located in the directory that linux systems store log files (look it up!</description>
+    </item>
+    
+  </channel>
+</rss>

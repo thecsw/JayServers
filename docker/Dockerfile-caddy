@@ -1,0 +1,17 @@
+FROM alpine
+
+RUN apk add --update --no-cache \
+    bash \
+    curl \
+    hugo
+
+RUN curl https://getcaddy.com | bash -s personal http.cors
+
+WORKDIR /caddy
+
+COPY ./docker/Caddyfile /caddy
+COPY ./docs/public /static
+
+EXPOSE 80 443 2015
+
+CMD [ "caddy" ]

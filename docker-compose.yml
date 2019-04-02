@@ -1,9 +1,18 @@
 version: '3'
-
 services:
-    box1:
-        build:
-          context: .
-          dockerfile: docker/Dockerfile-server1
-        ports:
-          - "2020:22"
+  box1:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile-server1
+    ports:
+      - "2020:22"
+  http:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile-caddy
+    restart: "no"
+    ports:
+      - 2015:2015
+      - 80:80
+      - 443:443
+      
