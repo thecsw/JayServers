@@ -2,13 +2,13 @@ FROM alpine
 
 RUN apk add --update --no-cache \
     bash \
-    curl \
-    hugo
+    curl
 
 RUN curl https://getcaddy.com | bash -s personal http.cors
 
 WORKDIR /caddy
 
+#COPY ./.caddy/acme/acme-v02.api.letsencrypt.org/sites/jayhackers.org /root
 COPY ./docker/Caddyfile /caddy
 COPY ./docs/public /static
 

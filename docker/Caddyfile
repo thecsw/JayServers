@@ -1,5 +1,6 @@
 jayhackers.org {
-        cors
+	cors
+#	tls /root/jayhackers.org.crt /root/jayhackers.org.key
 	root /static
 	log / stdout
 	errors stdout
