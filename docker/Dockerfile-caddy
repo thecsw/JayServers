@@ -8,9 +8,7 @@ RUN curl https://getcaddy.com | bash -s personal http.cors
 
 WORKDIR /caddy
 
-#COPY ./.caddy/acme/acme-v02.api.letsencrypt.org/sites/jayhackers.org /root
 COPY ./docker/Caddyfile /caddy
-COPY ./docs/public /static
 
 EXPOSE 80 443 2015
 

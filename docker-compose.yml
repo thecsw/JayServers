@@ -17,3 +17,4 @@ services:
       - 443:443
     volumes:
       - /data/jayhackers/caddy/data:/root/.caddy
+      - ./docs/public:/static
