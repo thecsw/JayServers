@@ -1,33 +1,165 @@
-<p>+++ date = “2019-03-28” title = “Lab 1 Challenges” author = “Ellis and Sandy” +++</p>
-<ol class="incremental" type="1">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        
+        Jayhackers website
+        
+    </title>
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <link rel='icon' type='image/x-icon' href="https://jayhackers.org/images/kuisc_logo.png" />
+    <link rel="apple-touch-icon" href="https://jayhackers.org/images/kuisc_logo.png"><link rel="stylesheet" href="https://jayhackers.org/scss/style.css">
+    
+    <link rel="stylesheet" href="https://jayhackers.org/scss/monokai-sublime.min.css">
+    <script src="https://jayhackers.org/js/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://jayhackers.org/scss/highlight.css">
+    
+    <link rel="stylesheet" href="https://jayhackers.org/scss/custom.css">
+    
+    
+    
+    <meta name="generator" content="Hugo 0.54.0" /></head>
+
+<body>
+<div class="header">
+    <div class="site-logo__wrap">
+        <div id="site-button">
+            <div></div>
+        </div>
+        
+        <div class=' site-logo '>
+            <a href="https://jayhackers.org/"><img src="https://jayhackers.org/images/kuisc_logo.png" /></a>
+        </div>
+    </div>
+    
+<div class=' site-nav u-font ' id="nav-bar">
+    
+    <div class="site-nav__wrap">
+        <a class="site-nav__el" href="/" >HOME</a>
+    </div>
+    
+    <div class="site-nav__wrap">
+        <a class="site-nav__el" href="/about/" >LABS</a>
+    </div>
+    
+</div>
+</div>
+<div class="main">
+
+<div class="main-content">
+    <div class="main-content__date">
+        <h4 id="date"> 2019.03.25 17:18 </h4>
+    </div>
+    <div class="main-content__title">
+        <h1 id="title">Lab 1 Challenges</h1>
+    </div>
+    <div class="main-content__article">
+        <article id="content">
+            
+
+<h4 id="welcome-to-the-first-jayhackers-nix-system-competition-labs">Welcome to the first JayHackers *NIX system competition labs!</h4>
+
+<ol>
 <li><p>Password to the next user stored in flag.txt</p>
-<p><strong>Useful commands: cat, less, more</strong></p></li>
+
+<p><em>Useful commands: cat, less, more</em></p></li>
+
 <li><p>Password to the next user is the home directory of the user</p>
-<p><strong>Useful commands: pwd, cat, less, more, cd</strong></p></li>
+
+<p><em>Useful commands: pwd, cat, less, more, cd</em></p></li>
+
 <li><p>Password to the next user is stored in the file “flag.txt” located in the directory that linux systems store log files (look it up!)</p>
-<p><strong>Useful commands: pwd, cat, less, more, cd</strong></p></li>
+
+<p><em>Useful commands: pwd, cat, less, more, cd</em></p></li>
+
 <li><p>Password to the next user is stored within the hidden directory in the users home directory</p>
-<p><strong>Useful commands: pwd, cat, less, more, cd</strong></p></li>
+
+<p><em>Useful commands: pwd, cat, less, more, cd</em></p></li>
+
 <li><p>Password to the next user is stored at the bottom of the file containing 67 lines</p>
-<p><strong>Useful commands: pwd, cat, less, more, cd, wc, awk, sed, grep</strong></p></li>
+
+<p><em>Useful commands: pwd, cat, less, more, cd, wc, awk, sed, grep</em></p></li>
+
 <li><p>Password to the next user is stored in a file called “level_6.txt” located somewhere on the filesystem</p>
-<p><strong>Useful commands: pwd, cat, less, more, find, grep, sed, awk</strong></p></li>
+
+<p><em>Useful commands: pwd, cat, less, more, find, grep, sed, awk</em></p></li>
+
 <li><p>Password to the next user is stored in the file with 21 bytes</p>
-<p><strong>Useful commands: pwd, cat, less, more, cd, wc, sed, du, grep</strong></p></li>
+
+<p><em>Useful commands: pwd, cat, less, more, cd, wc, sed, du, grep</em></p></li>
+
 <li><p>Password to the next user is the one line of two.txt that is different from one.txt</p>
-<p><strong>Useful commands: diff, sed, awk, grep, cat</strong></p></li>
+
+<p><em>Useful commands: diff, sed, awk, grep, cat</em></p></li>
+
 <li><p>Password to the next user is the hash located first alphabetically in the home file</p>
-<p><strong>Useful commands: sort, cat, sed</strong></p></li>
+
+<p><em>Useful commands: sort, cat, sed</em></p></li>
+
 <li><p>Password to the next user is stored in the file with the following qualities: “.old” extension, 222 bytes, in group user9</p>
-<p><strong>Useful commands: find, grep, chmod, du, wc</strong></p></li>
+
+<p><em>Useful commands: find, grep, chmod, du, wc</em></p></li>
+
 <li><p>Password to the next user is the hash repeated 7 times in the file</p>
-<p><strong>Useful commands: uniq, cat, grep, awk</strong></p></li>
+
+<p><em>Useful commands: uniq, cat, grep, awk</em></p></li>
+
 <li><p>Password to the next user is located on the line of the file starting with “flag”</p>
-<p><strong>Useful commands: cat, grep, sed, awk, less</strong></p></li>
+
+<p><em>Useful commands: cat, grep, sed, awk, less</em></p></li>
+
 <li><p>Password to the next user is located on the line of the file starting with “password” but is not case sensitive</p>
-<p><strong>Useful commands: cat, grep, sed, awk, less</strong></p></li>
+
+<p><em>Useful commands: cat, grep, sed, awk, less</em></p></li>
+
 <li><p>Password to the next user is located three lines before the line with “password”</p>
-<p><strong>Useful commands: cat, grep, sed, awk, less</strong></p></li>
+
+<p><em>Useful commands: cat, grep, sed, awk, less</em></p></li>
+
 <li><p>Password to the next file is one of the few human readable strings, located on one of the lines starting with “===”</p>
-<p><strong>Useful commands: cat, grep, sed, awk, less</strong></p></li>
+
+<p><em>Useful commands: cat, grep, sed, awk, less</em></p></li>
 </ol>
+
+        </article>
+    </div>
+    <div class="main-content__tags u-font">
+        
+    </div>
+</div>
+<div class="main-profile">
+    <div class="main-profile__avatar">
+        
+    </div>
+    <div class="main-profile__body">
+        <div class="main-profile__author">
+            
+            <span> Sandy. Lawrence CTO </span>
+            
+        </div>
+        <div class="main-profile__description">
+            
+            <p> KU Information Security Club </p>
+            
+        </div>
+    </div>
+</div>
+<div class="main-line"></div>
+<div class="main-pn">
+    
+    
+</div>
+
+</div>
+<div class="footer">
+    <div class="copyright-wrap">
+        <p class="copyright u-font">
+            KU Information Security Club. Copyright 2019
+        </p>
+    </div>
+</div>
+</body>
+<script src="https://jayhackers.org/js/page.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+

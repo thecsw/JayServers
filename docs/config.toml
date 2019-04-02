@@ -11,14 +11,14 @@ paginate = 10
 # Theme config
 [params]
   # The content you want to be listed on list pages.
-  # mainSections = ["post"]
+  mainSections = ["post"]
   # The information will display on the post pages.
   author = "Sandy. Lawrence CTO"
   description = "KU Information Security Club"
   # authorwebsite = "https://jayhackers.org/"
   # The path to your images
-  favicon = "./images/jay2.png"
-  logo = "./images/jay2.png"
+  favicon = "./images/kuisc_logo.png"
+  logo = "./images/kuisc_logo.png"
   avatar = ""
   displayImg = "./images/lawrence.jpg"
   # This will display on the index page
@@ -33,6 +33,37 @@ paginate = 10
     weight = 1
 
 [[menu.nav]]
-    name = "LABS"
-    url = "/about/"
+    name = "POSTS"
+    url = "/post"
     weight = 2
+
+[[menu.nav]]
+    name = "ABOUT"
+    url = "/about/"
+    weight = 3
+
+[[menu.nav]]
+    name = "TAGS"
+    url = "/tags/"
+    weight = 4
+
+[[menu.social]]
+    name = "KU Information Security Club"
+    url = "https://kuisc.com"
+    weight = 1
+
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/KUInfoSec"
+    weight = 2
+
+[[menu.social]]
+    name = "Slack"
+    url = "https://jayhackers.slack.com"
+    weight = 3
+
+[[menu.social]]
+    name = "Wiki"
+    url = "https://wiki.kuisc.com/doku.php"
+    weight = 4
+
