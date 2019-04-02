@@ -5,22 +5,22 @@ theme = "hugo-theme-yuki"
 author = "Sandy"
 
 # Copyright notice. This will display on the footer.
-copyright = "oof"
+copyright = "KU Information Security Club. Copyright 2019"
 paginate = 10
 
 # Theme config
 [params]
   # The content you want to be listed on list pages.
-  mainSections = ["post"]
+  # mainSections = ["post"]
   # The information will display on the post pages.
-  author = "Sandy"
+  author = "Sandy. Lawrence CTO"
   description = "KU Information Security Club"
   # authorwebsite = "https://jayhackers.org/"
   # The path to your images
-  favicon = "./images/kuisc_logo.png"
-  logo = "./images/kuisc_logo.png"
+  favicon = "./images/jay2.png"
+  logo = "./images/jay2.png"
   avatar = ""
-  displayImg = "images/lawrence.jpg"
+  displayImg = "./images/lawrence.jpg"
   # This will display on the index page
   #esnsTitle = "Social"
   # Google Analytics API key.
